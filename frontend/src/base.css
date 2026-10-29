@@ -1,0 +1,12 @@
+:root { --ink:#1c1917; --sand:#f5f0e8; --accent:#9a3412; }
+* { box-sizing:border-box; }
+body { margin:0; font-family:Georgia, serif; background:linear-gradient(180deg,#f5f0e8,#e7e5e4); color:var(--ink); }
+.top { display:flex; justify-content:space-between; padding:1rem 1.5rem; background:#1c1917; color:#fff; }
+.top a { color:#fff; margin-left:1rem; text-decoration:none; }
+main { max-width:1100px; margin:0 auto; padding:2rem 1.5rem; }
+.hero h1 { font-size:clamp(1.8rem,4vw,3rem); max-width:18ch; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:1rem; }
+.grid article, blockquote { background:#fff; padding:1rem; border:1px solid #d6d3d1; }
+.error { padding:3rem 1.5rem; }
+footer { padding:2rem 1.5rem; opacity:.7; }
+@media (max-width:768px) { .top { flex-direction:column; gap:.5rem; } }

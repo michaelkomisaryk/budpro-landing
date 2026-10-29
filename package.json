@@ -1,0 +1,9 @@
+{
+  "name": "budpro-landing",
+  "private": true,
+  "scripts": {
+    "dev:cms": "node cms/src/server.js",
+    "dev:frontend": "npx --yes serve frontend -p 5174",
+    "dev": "npm run dev:cms"
+  }
+}
