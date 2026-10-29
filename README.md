@@ -20,3 +20,7 @@ npx --yes serve frontend -p 5174
 Відкрийте http://127.0.0.1:5174/
 
 Панель редактора в повній Payload-версії: http://127.0.0.1:3000/admin
+
+## GitHub
+
+https://github.com/michaelkomisaryk/budpro-landing
