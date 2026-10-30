@@ -4,8 +4,11 @@ export function header(settings) {
     .join("");
   return `
     <header class="header">
-      <a class="header__logo" href="/"><img src="/logo.svg" alt="${settings.siteName}"></a>
+      <a class="brand-mark" href="/" style="text-decoration:none;color:inherit">
+        <b>${settings.siteName}</b>
+        <span>планування · контроль · супровід</span>
+      </a>
       <nav class="header__nav">${menu}</nav>
-      <a class="btn btn--primary header__cta" href="#contacts">Зв’язатися</a>
+      <a class="btn btn--primary" href="#contacts">Демо Django</a>
     </header>`;
 }

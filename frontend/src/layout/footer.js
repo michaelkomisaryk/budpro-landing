@@ -1,8 +1,8 @@
 export function footer(settings) {
   return `
     <footer class="footer">
-      <img src="/logo.svg" alt="">
-      <p>${settings.siteName} — система планування, контролю та супроводу будівельних проєктів.</p>
-      <p class="footer__credits">Лендінг · Payload-стиль контент · TypeScript-модель сторінки</p>
+      <b style="color:var(--ink)">${settings.siteName}</b>
+      <p>Система автоматизації планування, контролю та супроводу будівельних проєктів. Django 5.2 · MySQL · Bootstrap.</p>
+      <p>Облік проєктів, працівників, завдань, матеріалів, витрат і табеля в одному кабінеті.</p>
     </footer>`;
 }
