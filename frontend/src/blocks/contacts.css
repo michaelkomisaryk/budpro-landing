@@ -1,0 +1,8 @@
+.contacts {
+  display: grid; gap: 20px; padding: 36px; margin-bottom: 40px;
+  background: #17191f; color: #f7f8fa; border-radius: 24px;
+}
+.contacts h2 { margin: 0; color: #fff; }
+.contacts p { margin: 0; color: #c4c8d0; }
+.contacts a { color: #fdba74; font-weight: 700; text-decoration: none; }
+@media (min-width: 768px) { .contacts { grid-template-columns: 1.2fr 0.8fr; align-items: center; } }
